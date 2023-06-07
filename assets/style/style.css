@@ -1,0 +1,328 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Medium.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color_black: #0b0c17;
+}
+
+body {
+  max-width: 1440px;
+  font-family: "Roboto";
+  font-weight: 400;
+  /* background-color: #f5f5f5; */
+}
+
+/* # === HEADER === */
+
+.head {
+  color: var(--color_black);
+  background: right / contain no-repeat url("../img/ilustracion_people.png"),
+    right / contain no-repeat url("../img/ilustracion1.png");
+}
+
+.logo {
+  margin-left: 91px;
+  padding-top: 38px;
+}
+
+.project_name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.logo p {
+  font-size: 0.75rem;
+}
+
+.header_question {
+  margin-top: 350px;
+  margin-left: 144px;
+}
+
+.header_question h1 {
+  width: 425px;
+  font-size: 3.375rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.header_question p {
+  line-height: 30px;
+  width: 467px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  padding-bottom: 16px;
+}
+
+.header_question > p > span {
+  font-size: 1.5rem;
+}
+
+/* # === MAIN === */
+
+.scroll {
+  margin-top: 60px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #ff3571;
+  text-transform: uppercase;
+  margin-left: 144px;
+}
+
+.example_pictures {
+  margin-top: 130px;
+  max-width: 100vw;
+  height: 75vh;
+  background-size: cover;
+  background-image: url("../img/images.jpg");
+}
+
+.introduction {
+  display: flex;
+  margin-top: 298px;
+  margin-right: 300px;
+  margin-left: 155px;
+  justify-content: space-between;
+}
+
+.light_bulb {
+  flex-basis: 25%;
+  font-size: 2.375rem;
+  font-weight: 600;
+}
+
+.light_bulb span {
+  font-size: 3rem;
+}
+
+.introduction p {
+  line-height: 2.25rem;
+  font-size: 1.125rem;
+  font-weight: 300;
+  flex-basis: 63%;
+}
+
+.skills_article {
+  margin-top: 107px;
+}
+
+.skills_heading {
+  padding-left: 216px;
+  font-size: 38px;
+  max-width: 65%;
+}
+
+.skills {
+  margin-top: 198px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 98px;
+  padding-left: 162px;
+}
+
+.skill {
+  flex-basis: 50%;
+}
+
+.skill .svg {
+  margin-right: 25px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.skill1 .svg {
+  background-image: url("../img/title02.svg");
+}
+
+.skill2 .svg {
+  background-image: url("../img/title04.svg");
+}
+
+.skill3 .svg {
+  background-image: url("../img/title01.svg");
+}
+
+.skill4 .svg {
+  background-image: url("../img/title03.svg");
+}
+
+.skill h3 {
+  font-size: 1.1875rem;
+  font-weight: 700;
+}
+
+.skill p {
+  width: 57%;
+  font-size: 0.875rem;
+  font-weight: 300;
+  padding-left: 60px;
+  padding-top: 16px;
+  line-height: 28px;
+}
+
+.solving_propblems_instruction {
+  margin-top: 260px;
+}
+
+.solving_propblems_instruction header h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600px;
+}
+
+.solving_propblems_instruction header p {
+  font-size: 14px;
+  font-weight: 300;
+  width: 394px;
+  text-align: center;
+  margin: 25px auto 151px;
+}
+
+.instruction_block {
+  margin-left: 144px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.counter {
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: #ddd;
+}
+
+.emoji {
+  font-size: 40px;
+  padding-top: 45px;
+  padding-bottom: 28px;
+}
+
+.instruction_heading {
+  font-size: 1.1875rem;
+  font-weight: 700;
+}
+
+.instruction_text {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 28px;
+  padding-bottom: 115px;
+  /* width: 90%; */
+}
+
+.box_distance {
+  margin-bottom: 150px;
+}
+
+.instruction_block1 {
+  background-image: url("../img/step01.png");
+}
+
+.instruction_block2 {
+  background-image: url("../img/step02.png");
+}
+
+.instruction_block3 {
+  background-image: url("../img/step03.png");
+}
+
+.instruction_block4 {
+  background-image: url("../img/step04.png");
+}
+
+.picture_left {
+  padding-left: 635px;
+  padding-right: 79px;
+}
+
+.picture_right {
+  background-position: right;
+  padding-right: 565px;
+  margin-right: 144px;
+}
+
+.newsletter {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.newsletter p {
+  padding-top: 25px;
+  font-size: 14px;
+  font-weight: 300;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="email"] {
+  margin-top: 51px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  height: 86px;
+  width: 656px;
+  text-align: center;
+  font-size: 24px;
+  color: #757575;
+  border: none;
+  box-shadow: 0 0 10px 5px darkgray;
+  border-radius: 5px;
+}
+
+.subscribe_btn {
+  background-color: #ff3571;
+  font-size: 1.1875rem;
+  color: #fff;
+  padding: 20px 82px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* # ==== FOOTER === */
+
+footer p {
+  padding-top: 157px;
+  padding-left: 130px;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+footer span {
+  font-size: 1.5rem;
+}
